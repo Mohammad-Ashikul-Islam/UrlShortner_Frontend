@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# URL Shortner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Demo
+- [Live Link](https://asurl.onrender.com) 
+- [Backend Code](https://github.com/Mohammad-Ashikul-Islam/UrlShortner_Backend)
+<p align="center">
+  <a href="" target="_blank">
+    <img width="1090" src="https://drive.google.com/file/d/1QdIw5ucYsGP8FlbUNA0kmFnSy15rXmfZ/view?usp=share_link">
+    <img width="1090" src="https://drive.google.com/file/d/1yrOcyd1G-yJmB2GEvUt9XwkQqGxqFozw/view?usp=share_link">
+    <img width="1090" src="https://drive.google.com/file/d/1yrOcyd1G-yJmB2GEvUt9XwkQqGxqFozw/view?usp=share_link">
+    <br>
+  </a>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+### Built with 
 
-### `npm start`
+URL Shortner is built with [React](https://react.dev/), [ChakraUI](https://chakra-ui.com/) & [Axios](https://axios-http.com/docs/intro)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Enter your long URL and short it
+- Get a short url code of ten length
+- See the number of visit in your short url with it's short code
+- Secure, fast & userfriendly
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Build Setup
 
-### `npm run build`
+**Requires React.js 18.2.0, React Router Dom 6.10.0**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` bash
+# install dependencies
+npm install 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# start server
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# build for production 
+npm run build
 
-### `npm run eject`
+# serve in production mode 
+npm run preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
+- Frontend: [Render](https://render.com/)
+- Backend: [Render](https://render.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Due to [Render's](https://render.com) internal system of free tire, first request on app or backend api may take longer time than the usual, even upto a minute. So, please consider the issue and wait till the Render server wakes up or reload in case of the first front-end connection freezing/backend connection freezing. Thank you
