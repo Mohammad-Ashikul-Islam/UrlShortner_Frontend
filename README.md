@@ -1,16 +1,8 @@
 # URL Shortner
 
-### Demo
+### Links
 - [Live Link](https://asurl.onrender.com) 
 - [Backend Code](https://github.com/Mohammad-Ashikul-Islam/UrlShortner_Backend)
-<p align="center">
-  <a href="" target="_blank">
-    <img width="600" src="https://drive.google.com/file/d/1QdIw5ucYsGP8FlbUNA0kmFnSy15rXmfZ/view?usp=sharing">
-    <img width="600" src="https://drive.google.com/file/d/1yrOcyd1G-yJmB2GEvUt9XwkQqGxqFozw/view?usp=sharing">
-    <img width="600" src="https://drive.google.com/file/d/1vrfnmz63rPUwoVK1JoR0JZm9UT3uOAm9/view?usp=sharing">
-    <br>
-  </a>
-</p>
 
 
 ### Built with 
