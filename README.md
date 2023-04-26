@@ -5,9 +5,9 @@
 - [Backend Code](https://github.com/Mohammad-Ashikul-Islam/UrlShortner_Backend)
 <p align="center">
   <a href="" target="_blank">
-    <img width="1090" src="https://drive.google.com/file/d/1QdIw5ucYsGP8FlbUNA0kmFnSy15rXmfZ/view?usp=share_link">
-    <img width="1090" src="https://drive.google.com/file/d/1yrOcyd1G-yJmB2GEvUt9XwkQqGxqFozw/view?usp=share_link">
-    <img width="1090" src="https://drive.google.com/file/d/1yrOcyd1G-yJmB2GEvUt9XwkQqGxqFozw/view?usp=share_link">
+    <img width="600" src="https://drive.google.com/file/d/1QdIw5ucYsGP8FlbUNA0kmFnSy15rXmfZ/view?usp=sharing">
+    <img width="600" src="https://drive.google.com/file/d/1yrOcyd1G-yJmB2GEvUt9XwkQqGxqFozw/view?usp=sharing">
+    <img width="600" src="https://drive.google.com/file/d/1vrfnmz63rPUwoVK1JoR0JZm9UT3uOAm9/view?usp=sharing">
     <br>
   </a>
 </p>
@@ -23,7 +23,7 @@ URL Shortner is built with [React](https://react.dev/), [ChakraUI](https://chakr
 - Enter your long URL and short it
 - Get a short url code of ten length
 - See the number of visit in your short url with it's short code
-- Secure, fast & userfriendly
+- Copy button to copy Short URL easily
 
 ## Build Setup
 
