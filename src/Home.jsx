@@ -11,14 +11,13 @@ const Home = () => {
     const proceedUrl = async (enteredURL) =>{
         await axios({
             method: 'post',
-            url: "http://localhost:4000/createurl/",
+            url: "https://url-shortner-eha2.onrender.com/createurl/",
             headers: {}, 
             data: {"longUrl": enteredURL}
           })
           .then((response) => {
             navigate('/stat', { state: response.data } );
           }, (error) => {
-            console.log(error);
             setErrMsg(error.response.data);
           });
       }

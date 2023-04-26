@@ -11,7 +11,7 @@ const SearchStat = () => {
     const proceedUrl = async (shortUrlCode) =>{
         await axios({
             method: 'get',
-            url: `http://localhost:4000/findurl/${shortUrlCode}/stat`,
+            url: `https://url-shortner-eha2.onrender.com/findurl/${shortUrlCode}/stat`,
             headers: {}, 
             data: {}
           })

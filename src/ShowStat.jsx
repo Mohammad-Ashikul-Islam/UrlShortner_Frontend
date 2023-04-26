@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 
 const ShowStat = () => {
     const { state } = useLocation();
-    const shortUrl = "http://localhost:4000/findUrl/"+state.shortUrlCode;
+    const shortUrl = "https://url-shortner-eha2.onrender.com/findUrl/"+state.shortUrlCode;
     const { onCopy, value, setValue, hasCopied } = useClipboard(shortUrl);
     return (
         <Container mt={5}>
